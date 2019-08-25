@@ -1,15 +1,17 @@
 import com.brianlukonsolo.CaesarCipher;
+import org.junit.Before;
 import org.junit.Test;
 
 public class CaesarCipherTests {
-    @Test
-    public void itShouldExist(){
-        CaesarCipher ceasarCipher = new CaesarCipher();
+    private CaesarCipher caesarCipher;
+
+    @Before
+    public void before(){
+        caesarCipher = new CaesarCipher();
     }
 
     @Test
     public void itShouldHaveAMethodToEncryptAString(){
-        CaesarCipher caesarCipher = new CaesarCipher();
         String encryptedDate = caesarCipher.encrypt("");
     }
 
