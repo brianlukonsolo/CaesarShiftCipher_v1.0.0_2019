@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f38bb1b6-9463-4f2a-901f-4ff170b06ea8" name="Default" comment="chore(*): add code to start application and wait for user input to encrypt a message">
+    <list default="true" id="f38bb1b6-9463-4f2a-901f-4ff170b06ea8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,8 +20,8 @@
           <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="218">
-                  <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+                <state relative-caret-position="686">
+                  <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -37,7 +36,7 @@
           <file leaf-file-name="CaesarCipherTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/CaesarCipherTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
+                <state relative-caret-position="618">
                   <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -177,6 +176,7 @@
   <component name="PropertiesComponent">
     <property name="TF_FMT" value="false" />
     <property name="add_unversioned_files" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -382,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566755329391</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="chore(*): Add code to let user decide whether to use encryption or decryption mode. Minor refactor.">
+      <created>1566760836933</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1566760836933</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -419,7 +426,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -432,11 +438,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.1130064" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3769063" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3769063" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12579957" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20842217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -464,7 +470,8 @@
     <MESSAGE value="refactor(*): rename project" />
     <MESSAGE value="test(*): it should not modify characters that are not letters" />
     <MESSAGE value="chore(*): add code to start application and wait for user input to encrypt a message" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore(*): add code to start application and wait for user input to encrypt a message" />
+    <MESSAGE value="chore(*): Add code to let user decide whether to use encryption or decryption mode. Minor refactor." />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(*): Add code to let user decide whether to use encryption or decryption mode. Minor refactor." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -540,7 +547,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CaesarCipherTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="618">
           <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -550,8 +557,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        <state relative-caret-position="686">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
