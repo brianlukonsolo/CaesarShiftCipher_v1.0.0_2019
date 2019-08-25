@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f38bb1b6-9463-4f2a-901f-4ff170b06ea8" name="Default" comment="">
+    <list default="true" id="f38bb1b6-9463-4f2a-901f-4ff170b06ea8" name="Default" comment="chore(*): add code to start application and wait for user input to encrypt a message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brianlukonsolo/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brianlukonsolo/CaesarCipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CaesarCipherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CaesarCipherTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,36 +15,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46008402">
+    <splitter split-orientation="horizontal" split-proportion="0.7205882">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/brianlukonsolo/Constants.java">
+          <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" selection-start-line="8" selection-end-line="8" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CaesarCipher.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/brianlukonsolo/CaesarCipher.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-17">
-                  <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="CaesarCipherTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/CaesarCipherTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="278">
-                  <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+                <state relative-caret-position="218">
+                  <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -54,11 +30,18 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="CaesarCipherTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/CaesarCipherTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="382">
-                  <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+                <state relative-caret-position="272">
+                  <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -77,10 +60,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>b</find>
+      <find>announce</find>
     </findStrings>
     <replaceStrings>
       <replace>0</replace>
       <replace>1</replace>
+      <replace>show</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -93,9 +78,9 @@
         <option value="$PROJECT_DIR$/src/test/java/CaesarCipherTests.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/brianlukonsolo/Constants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Application.java" />
         <option value="$PROJECT_DIR$/src/test/java/CaesarCipherTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brianlukonsolo/CaesarCipher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Application.java" />
       </list>
     </option>
   </component>
@@ -214,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CaesarCipherTest">
+  <component name="RunManager" selected="Application.Application">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -323,8 +308,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CaesarCipherTest" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.CaesarCipherTest" />
         <item itemvalue="JUnit.CaesarCipherTest.itShouldEncryptAGivenString" />
         <item itemvalue="JUnit.CaesarCipherTests" />
       </list>
@@ -390,13 +375,17 @@
       <option name="project" value="LOCAL" />
       <updated>1566752631838</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test(*): it should not modify characters that are not letters">
+      <created>1566755329391</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1566755329391</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CaesarCipherTest_itShouldEncryptAGivenString - 2019.08.25 at 17h 34m 33s.xml">
-      <configuration name="CaesarCipherTest.itShouldEncryptAGivenString" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CaesarCipherTest_itShouldEncryptAGivenString - 2019.08.25 at 17h 35m 20s.xml">
       <configuration name="CaesarCipherTest.itShouldEncryptAGivenString" configurationId="JUnit" />
     </history-entry>
@@ -424,6 +413,9 @@
     <history-entry file="CaesarCipherTest - 2019.08.25 at 18h 47m 01s.xml">
       <configuration name="CaesarCipherTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CaesarCipherTest - 2019.08.25 at 18h 58m 20s.xml">
+      <configuration name="CaesarCipherTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -440,7 +432,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.1130064" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37037036" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3769063" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -470,7 +462,9 @@
     <MESSAGE value="tests(*): should encrypt and decrypt a given string successfully using a specified shift amount in int form" />
     <MESSAGE value="refactor(*): clean up CaesarCipher class. Delete redundant tests. Remove unused imports." />
     <MESSAGE value="refactor(*): rename project" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor(*): rename project" />
+    <MESSAGE value="test(*): it should not modify characters that are not letters" />
+    <MESSAGE value="chore(*): add code to start application and wait for user input to encrypt a message" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(*): add code to start application and wait for user input to encrypt a message" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -530,6 +524,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brianlukonsolo/CaesarCipher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brianlukonsolo/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -537,24 +538,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brianlukonsolo/CaesarCipher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CaesarCipherTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
+        <state relative-caret-position="272">
           <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
