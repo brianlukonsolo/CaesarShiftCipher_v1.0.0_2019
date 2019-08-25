@@ -15,4 +15,9 @@ public class CaesarCipherTests {
         String encryptedDate = caesarCipher.encrypt("");
     }
 
+    @Test
+    public void itShouldHaveAMethodToDecryptAnEncryptedStringUsingASpecifiedInteger(){
+        String decryptedString = caesarCipher.decrypt("", 2);
+    }
+
 }
