@@ -122,6 +122,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,13 +130,43 @@
               <item name="Caesarshiftcryptoalgorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Caesarshiftcryptoalgorithm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Caesarshiftcryptoalgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Caesarshiftcryptoalgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Caesarshiftcryptoalgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Caesarshiftcryptoalgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Caesarshiftcryptoalgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Caesarshiftcryptoalgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Caesarshiftcryptoalgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Caesarshiftcryptoalgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Caesarshiftcryptoalgorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Caesarshiftcryptoalgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">

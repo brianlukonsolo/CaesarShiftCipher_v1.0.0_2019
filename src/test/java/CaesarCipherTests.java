@@ -10,5 +10,7 @@ public class CaesarCipherTests {
     @Test
     public void itShouldHaveAMethodToEncryptAString(){
         CaesarCipher caesarCipher = new CaesarCipher();
+        String encryptedDate = caesarCipher.encrypt("");
     }
+
 }
