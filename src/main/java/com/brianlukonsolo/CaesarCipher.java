@@ -8,7 +8,11 @@ public class CaesarCipher {
         char[] plainTextAsArrayOfChars = plainText.toCharArray();
         StringBuilder encryptedText = new StringBuilder();
         for(char letter : plainTextAsArrayOfChars){
-            encryptedText.append(lookUpChar(letter, numberOfShifts, ALPHABET));
+            if(Character.isLetter(letter)) {
+                encryptedText.append(lookUpChar(letter, numberOfShifts, ALPHABET));
+            }else{
+                encryptedText.append(letter);
+            }
         }
 
         return encryptedText.toString();
@@ -19,7 +23,12 @@ public class CaesarCipher {
         char[] encryptedTextAsArrayOfChars = encryptedText.toCharArray();
         StringBuilder decryptedText = new StringBuilder();
         for(char letter : encryptedTextAsArrayOfChars){
-            decryptedText.append(lookUpChar(letter, (numberOfShifts * -1), ALPHABET));
+            if(Character.isLetter(letter)) {
+                decryptedText.append(lookUpChar(letter, (numberOfShifts * -1), ALPHABET));
+            } else {
+                decryptedText.append(letter);
+            }
+
         }
 
         return decryptedText.toString();

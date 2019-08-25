@@ -34,4 +34,13 @@ public class CaesarCipherTest {
 
     }
 
+    @Test
+    public void itShouldNotModifyCharactersThatAreNotLetters(){
+        String encryptedText = caesarCipher.encrypt("abcd-abcd", 1);
+        String expectedEncryptedText = "bcde-bcde";
+
+        assertThat("should encrypt successfully", encryptedText, is(equalTo(expectedEncryptedText)));
+
+    }
+
 }
