@@ -48,20 +48,23 @@ public class Application {
                 show(">>> Please type the shift amount in integer form then press Enter ...");
                 int shiftAmount = Integer.parseInt(scanner.nextLine());
 
-                if (selectedOption.equals("2")){
+                if (selectedOption.equals("1")){
                     show(">>> Encrypting message...");
                     String encryptedText = caesarCipher.encrypt(message, shiftAmount);
                     show("Encryption complete.\n");
                     show(">>> Plain text was: " + message);
                     show(">>> Shift amount was: " + shiftAmount);
                     show(">>> Encrypted text is: " + encryptedText + "\n");
-                }else{
+                }else if (selectedOption.equals("2")){
                     show(">>> Decrypting message...");
                     String decryptedText = caesarCipher.decrypt(message, shiftAmount);
                     show("Decryption complete.\n");
                     show(">>> Decrypted text was: " + message);
                     show(">>> Shift amount was: " + shiftAmount);
                     show(">>> Decrypted text is: " + decryptedText + "\n");
+                }else {
+                    show("Invalid option selected. Exiting program ...");
+                    break;
                 }
 
                 show("[01010101010101010101010101010101010101010101010101010101010101010101010101]\n");
