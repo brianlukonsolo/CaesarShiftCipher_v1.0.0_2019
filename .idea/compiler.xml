@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Caesarshiftcryptoalgorithm" />
+        <module name="CaesarShiftCipher_v1.0.0_2019" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8" />
